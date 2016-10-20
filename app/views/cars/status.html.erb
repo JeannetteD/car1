@@ -1,0 +1,26 @@
+
+<h1>Car Status</h1>
+
+Maker of the Car: <%= @car.make %>
+<hr/>
+Model and Year: <%= @car.model_year %>
+<hr/>
+Initial Car Speed : <%= @car.speed %>
+</hr>
+
+</hr>
+<form action="/cars/accelerate" method="get">
+  <input type="submit" value="Speed Car"/>
+</form>
+
+<br/>
+<form action="/cars/brake" method="get">
+  <input type="submit" value="Brake Car"/>
+</form>
+<hr/>
+
+<form action="/cars/lights" method="get">
+Lights Status: <%= @car.lights %>
+  <input type="submit" value="Lights Car"/>
+
+</form>

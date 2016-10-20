@@ -1,0 +1,16 @@
+
+<!-- 1.  Given that I am on the car simulator landing page, then I see Welcome to the Car Simulator -->
+<h1>Welcome to the Car Simulator</h1>
+
+<!-- 2. Given that I am on the landing page, then I can create a car based on make and model year of the car to be simulated. -->
+<form action= "/cars/create" method="get">
+  <hr>
+<label for="make_id">Make</label>
+<input type="text" name="make" id="make_id"/>
+<hr>
+<label for= "model_year_id">Model Year</label>
+<input type="text" name="model_year" id="model_year_id"/>
+<hr>
+<input type="submit" value="Simulate Car">
+<hr>
+</form>
